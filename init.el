@@ -5,6 +5,7 @@
 ;; 加载初始化文件夹：-> lisp/
 ;;; Code:
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
+(defconst *is-a-mac* (eq system-type 'darwin))
 ;;----------------------------------------------------------------------------
 ;; Load configs for specific features and modes
 ;; 加载初始化文件
@@ -22,6 +23,7 @@
 (require 'init-ace-jump)
 ;; (require 'init-smartparens)
 (require 'init-editing-utils)
+(require 'init-osx-keys)
 ;; End-------------------------------------------------------------------------
 
 ;;; 以下是系统生成的配置，不懂不要乱动。
