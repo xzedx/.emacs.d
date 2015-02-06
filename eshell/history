@@ -34,3 +34,22 @@ dir
 clear
 PrintHood
 pwd
+ls
+cd elpa/
+ls
+cd company-0.8.9/
+ls
+pwd
+pwd
+hexo g
+hexo d
+ls
+cd themes/
+ls
+gcc -o test test.c 
+gcc -o test test.c 
+./test.exe 
+gcc -o test test.c 
+./test.exe 
+gcc -O3 -o test test.c 
+./test.exe 
