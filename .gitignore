@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 url/
 auto-save-list/
 elpa/
@@ -9,4 +9,4 @@ elpa/
 eshell/
 *.el~
 *.last~
->>>>>>> 90a8bdcede95b44ddb1bf5dc3aaece25b849f08e
+ido.last
