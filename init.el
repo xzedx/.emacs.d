@@ -1,4 +1,4 @@
-;;; package --- Summary
+﻿;;; package --- Summary
 ;;; Commentary:
 ;; This file bootstraps the configuration, which is divided into
 ;;; a number of other files.
@@ -21,9 +21,10 @@
 (require 'init-company)
 (require 'init-global-mode)
 (require 'init-ace-jump)
+;;(require 'init-magit)
 ;; (require 'init-smartparens)
 (require 'init-editing-utils)
-(require 'init-osx-keys)
+(require 'init-windows)
 ;; End-------------------------------------------------------------------------
 
 ;;; 以下是系统生成的配置，不懂不要乱动。
