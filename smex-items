@@ -1,0 +1,26 @@
+
+;; ----- smex-history -----
+(
+ revert-buffer
+ eshell
+ describe-coding-system
+ list-packages
+ package-install
+ revert-buffer-with-coding-system
+ enlarge-window
+)
+
+;; ----- smex-data -----
+(
+ (list-packages . 9)
+ (ido-everywhere . 1)
+ (company-clang . 1)
+ (find-file-other-frame . 1)
+ (shrink-window . 7)
+ (enlarge-window . 1)
+ (revert-buffer . 2)
+ (eshell . 3)
+ (revert-buffer-with-coding-system . 5)
+ (package-install . 1)
+ (describe-coding-system . 3)
+)

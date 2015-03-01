@@ -1,16 +1,6 @@
-;;; package --- Summary
-;;; Commentary:
-;;; Smex
-;;; Code:
-(global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands)
-;; This is your old M-x.
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
-;;; Undo-tree
-(global-set-key (kbd "C-x u") 'undo-tree-visualize)
-;;; ret
-(global-set-key (kbd "RET") 'newline-and-indent)
+(global-set-key (kbd "<M-up>") 'shrink-window)
+(global-set-key (kbd "<M-down>") 'enlarge-window)
+(global-set-key (kbd "<M-left>") 'shrink-window-horizontally)
+(global-set-key (kbd "<M-right>") 'enlarge-window-horizontally)
 
 (provide 'init-keys)
-
-;;; init-keys ends here
